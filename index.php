@@ -30,7 +30,11 @@
 		    	echo "<p>".$key."</p>"; 
 		    }
 	    }
-    ?>
+	   $amount=800;
+	   $taxRate=0.0825;
+	   $addedTax= $amount*$taxRate;  //amount = 800, tax = .0825
+	   echo $addedTax;
+    	?>
     <?php
       //$name = "PHP Store";
       //$credit = 1000; 
